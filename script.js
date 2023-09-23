@@ -17,7 +17,7 @@ function attributeHovered(event) {
   }
 
   if (hoveredCount == 10) {
-    hero.style.backgroundImage = "url(pics/PB_C1.jpg)";
+    hero.style.backgroundImage = "url(pics/PB_C1.webp)";
     attribute.forEach((attribute) => {
       attribute.style.color = "var(--secondary)";
     });
