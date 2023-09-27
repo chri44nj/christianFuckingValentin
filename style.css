@@ -161,7 +161,7 @@ a {
 }
 
 .skillsContainer ul {
-  margin-inline: 10rem;
+  margin-inline: 10dvw;
 }
 
 .skillsContainer ul li {
@@ -222,7 +222,7 @@ li a:hover {
   position: sticky;
   top: 45vh;
   text-align: center;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
   color: var(--accent);
 }
@@ -291,13 +291,14 @@ h3 {
 }
 
 #video h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
   font-weight: bold;
   color: var(--accent2);
+  text-align: center;
 }
 
 video {
-  width: 75%;
+  width: 60dvw;
 }
 
 /* Footer */
@@ -331,4 +332,90 @@ footer {
 
 .emailAddress:hover {
   color: var(--accent2);
+}
+
+@media only screen and (max-width: 600px) {
+  .attributesContainer {
+    display: none;
+  }
+
+  h1 {
+    font-size: 2rem;
+    line-height: 3rem;
+    letter-spacing: -0.06rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    max-width: 90dvw;
+  }
+
+  a {
+    text-decoration: none;
+    font-size: 1.2rem;
+  }
+
+  .name {
+    color: var(--accent);
+    font-size: 3rem;
+  }
+
+  .skillsContainer ul {
+    margin-inline: 5dvw;
+  }
+
+  .skillsContainer ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .tool {
+    font-size: 1.2rem;
+  }
+
+  .rating {
+    display: none;
+  }
+
+  .stars {
+    font-size: 1.2rem;
+  }
+
+  .breakLine {
+    width: 90%;
+  }
+
+  #projects h2 {
+    position: static;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .projectLinksContainer {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 4rem;
+  }
+
+  .projectLinksContainer img {
+    width: 90dvw;
+  }
+
+  .extraMargin {
+    margin-bottom: 4rem;
+  }
+
+  video {
+    width: 90dvw;
+  }
+
+  #video h2 {
+    font-size: 1.5rem;
+  }
 }
