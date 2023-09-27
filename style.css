@@ -335,6 +335,10 @@ footer {
 }
 
 @media only screen and (max-width: 600px) {
+  #hero {
+    background-image: url(pics/PB_C1.webp);
+  }
+
   .attributesContainer {
     display: none;
   }
@@ -400,7 +404,7 @@ footer {
 
   .projectLinksContainer {
     grid-template-columns: repeat(1, 1fr);
-    gap: 4rem;
+    gap: 3rem;
   }
 
   .projectLinksContainer img {
@@ -408,7 +412,7 @@ footer {
   }
 
   .extraMargin {
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
   }
 
   video {
@@ -417,5 +421,9 @@ footer {
 
   #video h2 {
     font-size: 1.5rem;
+  }
+
+  .soMeLinks i {
+    font-size: 2rem;
   }
 }
