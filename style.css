@@ -334,6 +334,30 @@ footer {
   color: var(--accent2);
 }
 
+@media only screen and (max-width: 1300px) {
+  #projects h2 {
+    position: static;
+    font-size: 2.5rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .projectLinksContainer {
+    grid-template-columns: repeat(1, 1fr);
+    gap: 3rem;
+  }
+
+  .projectLinksContainer img {
+    width: 50dvw;
+  }
+
+  .extraMargin {
+    margin-bottom: 3rem;
+  }
+}
+
 @media only screen and (max-width: 600px) {
   #hero {
     background-image: url(pics/PB_C1.webp);
@@ -395,24 +419,8 @@ footer {
     width: 90%;
   }
 
-  #projects h2 {
-    position: static;
-    font-size: 2.5rem;
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-  }
-
-  .projectLinksContainer {
-    grid-template-columns: repeat(1, 1fr);
-    gap: 3rem;
-  }
-
   .projectLinksContainer img {
     width: 90dvw;
-  }
-
-  .extraMargin {
-    margin-bottom: 3rem;
   }
 
   video {
